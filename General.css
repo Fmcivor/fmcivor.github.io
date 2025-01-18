@@ -1,12 +1,13 @@
 
     h1{
         text-align: center;
+        color: rgb(25, 25, 64);
     }
     
     nav{
         position: sticky;
         top: 0;
-        background-color: black;
+        background-color: rgb(25, 25, 64);
         width: 800px;
         height: 50px;
         margin: 0 auto;
@@ -18,7 +19,7 @@
         align-items: center;
         flex-direction: row;
         list-style: none;
-        background-color: black;
+        background-color: rgb(25, 25, 64);
         height: 50px;
         width: 800px;
         gap: 50px;
@@ -36,7 +37,8 @@
     }
     
     li a:hover{
-        background-color: blue;
+        background-color:rgb(17, 222, 222);
+        
     }
 
 

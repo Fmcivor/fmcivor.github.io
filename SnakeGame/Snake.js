@@ -1,7 +1,7 @@
 const gridContainer = document.querySelector(".grid");
 const grid = [];
-var snakePositionsRow = [5,5,5,5,5,5,5];
-var snakePositionsColumn = [6,5,4,3,2,1,0];
+var snakePositionsRow = [5,5];
+var snakePositionsColumn = [1,0];
 var headDirection = 'right';
 var canChangeDirection = true;
 var applePosition = [];
@@ -25,8 +25,7 @@ for (let row = 0; row < 10; row++) {
 
 grid[snakePositionsRow[0]][snakePositionsColumn[0]].classList.add('snakeHead');
 grid[snakePositionsRow[1]][snakePositionsColumn[1]].classList.add('snakeBody');
-grid[snakePositionsRow[2]][snakePositionsColumn[2]].classList.add('snakeBody');
-grid[snakePositionsRow[3]][snakePositionsColumn[3]].classList.add('snakeBody');
+
 
 spawnApple();
 

@@ -5,13 +5,17 @@ h2{
 .container{
     display: flex;
     flex-direction:row;
-    width: 100%;
-    background-color: none;
+    width: 90%;
+    height: 550px;
+    overflow-y: scroll;
+    background-color: lightgray;
     justify-content: space-between;
+    justify-self: center;
 }
 
 .educationTextContainer{
     width: 50%;
+    height: fit-content;
     border-right: 3px solid black;
     
 }
@@ -36,6 +40,7 @@ img{
 
 .personalTextContainer{
     width: 50%;
+    height: fit-content;
 }
 
 .personalP{

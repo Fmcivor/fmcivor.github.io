@@ -40,3 +40,4 @@ function startMainInterval(){
     }, 8000);
 }
 
+

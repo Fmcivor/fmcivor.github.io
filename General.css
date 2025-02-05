@@ -16,7 +16,7 @@
     }
     
     nav{
-        position: sticky;
+        
         top: 0px;
         left: 0px;
         background-color: rgb(25, 25, 64);
@@ -30,7 +30,7 @@
         
     }
     
-    ul{
+    nav ul{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -47,7 +47,7 @@
 
 
     
-    li a{
+    nav ul li a{
         background-color: rgb(25, 25, 64);
         color: rgb(218, 218, 218);
         text-decoration: none;
@@ -60,10 +60,33 @@
         
     }
     
-    li a:hover{
+    nav ul li a:hover{
         background-color:rgb(218, 218, 218);
         color: rgb(25, 25, 64);
     }
 
+    footer{
+        justify-content: center;
+        display: flex;
+        background-color: rgb(25, 25, 64);   
+    }
+
+    footer ul{
+        flex-direction: column;
+        list-style: none;
+    }
+
+    footer h3{
+        color: white;
+    }
+
+    footer address ul li a{
+        background-color: none;
+        color: white;
+        width: auto;
+        height: auto;
+    }
+
+   
 
 

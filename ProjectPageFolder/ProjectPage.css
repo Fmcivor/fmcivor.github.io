@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    background-color: white;
+
+}
+
+.left-column{
+    flex: 1;
+    background-color: white;
+    
+}
+
+.right-column{
+    flex:4.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollableProjectsList{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 218, 218);
+    height: 90vh;
+    width: 100%;
+    overflow: auto;
+    position: sticky;
+    top: 10vh;
+    left: 0vw;
+}
+
+.ProjectButton{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+    color: rgb(0, 0, 0);
+    border: none;
+    flex-shrink: 0;
+}
+
+.ProjectButton:hover{
+    background-color: rgb(25, 25, 64);
+    color: rgb(218, 218, 218);
+}
+
+.contentWrapper{
+    background-color: green;
+    width: 90%;
+    height: 1200px;
+}
